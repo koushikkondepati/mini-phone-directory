@@ -1,10 +1,15 @@
 import "./App.css";
-import Header from "./Header"
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <div>
+        Phone Directory
+      </div>
+      <div>
+        <label htmlFor="name">Name: </label>
+        <input type="text" placeholder="Enter Your Name" defaultValue="koushik"></input>
+      </div>
     </div>
   );
 }
