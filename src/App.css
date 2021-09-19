@@ -19,3 +19,23 @@
     border: none;
     width: 80px;
 }
+
+.grid-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-body-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.deleteButton{
+    text-align: center;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 80px;
+}
