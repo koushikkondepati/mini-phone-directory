@@ -1,17 +1,15 @@
 import "./App.css";
+import React, {Component} from 'react';
+import Header from "./Header";
 
-function App() {
-  return (
-    <div className="App">
+class App extends Component{
+  render(){
+    return(
       <div>
-        Phone Directory
+        <Header />
       </div>
-      <div>
-        <label htmlFor="name">Name: </label>
-        <input type="text" placeholder="Enter Your Name" defaultValue="koushik"></input>
-      </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
