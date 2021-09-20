@@ -21,13 +21,14 @@ class App extends Component{
     ]
     return(
       <div>
-        <Header />
+        <Header heading="Phone Directory"/>
         <div style={{margin:10}}>
           <button className='addButton'>ADD</button>
         
           <div className="grid-container">
             <span>Name</span>
             <span>Phone</span>
+            <span></span>
           </div>
 
           {
